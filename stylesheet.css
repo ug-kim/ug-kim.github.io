@@ -87,3 +87,7 @@ span.highlight {
 li {
   margin-bottom: 0.5rem;  /* 원하는 값으로 조절 */
 }
+
+.paperdesc {
+  line-height: 1.3;
+}
