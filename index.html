@@ -114,6 +114,53 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <tr onmouseout="drsplat_stop()" onmouseover="drsplat_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='uniform'>
+                  <img src='contents/gaussexplorer.jpg' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function drsplat_start() {
+                    document.getElementById('drsplat_image').style.opacity = "1";
+                  }
+        
+                  function drsplat_stop() {
+                    document.getElementById('drsplat_image').style.opacity = "0";
+                  }
+                  drsplat_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle" class="paperdesc">
+                <a href="https://gaussexplorer.github.io/">
+                  <span class="papertitle">GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning</span>
+                </a>
+                <div>
+                <strong><u>Kim Yu-Ji</u></strong>,
+                Dahye Lee,
+                Kim Jun-Seong,
+                GeonU Kim,
+                Nam Hyeon-Woo,
+                Yongjin Kwon,
+                Yu-Chiang Frank Wang,
+                Jaesung Choe,
+                Tae-Hyun Oh
+                </div>  
+                <div>
+                <b><em>arXiv</em>, 2026</b>
+                </div>
+                <div>
+                <a href="https://gaussexplorer.github.io/">Project Page</a>
+                <!-- / -->
+                <!-- <a href="https://www.youtube.com/watch?v=rXxkDvfsqac">Video</a> -->
+                /
+                <a href="https://arxiv.org/abs/2601.13132">arXiv</a>
+                </div>
+                <p>
+                  3D scene understanding and embodied reasoning by integrating 3DGS and VLMs.
+                </p>
+              </td>
+            </tr>
 
 
     <tr onmouseout="drsplat_stop()" onmouseover="drsplat_start()">
@@ -149,7 +196,7 @@
         <b><em>CVPR</em>, 2025</b>
         </div>
         <div>
-        <a href="https://drsplat.github.io//">Project Page</a>
+        <a href="https://drsplat.github.io/">Project Page</a>
         /
         <a href="https://www.youtube.com/watch?v=rXxkDvfsqac">Video</a>
         /
