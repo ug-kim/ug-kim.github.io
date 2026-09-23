@@ -1,5 +1,5 @@
-/* Load Inter from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+/* Load the body and heading fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=M+PLUS+Rounded+1c:wght@300;600;700&display=swap');
 
 a {
   color: #1772d0;
@@ -36,7 +36,7 @@ strong {
 h2 {
   margin: 0;
   font-weight: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
@@ -50,8 +50,15 @@ h2 {
 .name {
   padding-top: 20px;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 32px;
+}
+
+/* Compress only the name and section headings vertically by 4%. */
+.name,
+h2 {
+  transform: scaleY(0.96);
+  transform-origin: left center;
 }
 
 .one {
