@@ -83,7 +83,8 @@ h2 {
 }
 
 .award-color {
-  color: #f05650; /* BMVC 2024 color */
+  /* color: #f05650; */
+  color: #3da154;
   /* font-weight: bold; /* Make text bold */
 }
 
